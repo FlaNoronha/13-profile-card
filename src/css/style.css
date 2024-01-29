@@ -1,0 +1,62 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    min-height: 100vh;
+    }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 20px;
+    width: 330px;
+    height: 350px;
+    gap: 25px;
+}
+
+.card .personal-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.card .personal-information img{
+    border-radius: 50%;
+    width: 130px;
+    margin-top: 20px;
+}
+
+.card .social-numbers{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.card .personal-information p, 
+.card .social-numbers .counter{
+    color: rgb(41, 40, 40);
+    font-weight: 700;
+}
+
+.card .personal-information .age,
+.card .personal-information .city,
+.social-numbers .info .counter-type{
+    color: hsl(227, 10%, 46%);
+}
